@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042C45B2246549CC0096015C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C45B1246549CC0096015C /* AppDelegate.m */; };
+		042C45B5246549CC0096015C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C45B4246549CC0096015C /* SceneDelegate.m */; };
+		042C45B8246549CC0096015C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C45B7246549CC0096015C /* ViewController.m */; };
+		042C45BB246549CC0096015C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042C45B9246549CC0096015C /* Main.storyboard */; };
+		042C45BD246549CF0096015C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042C45BC246549CF0096015C /* Assets.xcassets */; };
+		042C45C0246549CF0096015C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042C45BE246549CF0096015C /* LaunchScreen.storyboard */; };
+		042C45C3246549CF0096015C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C45C2246549CF0096015C /* main.m */; };
+		042C45CD246549CF0096015C /* ASRSAEncryptionManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C45CC246549CF0096015C /* ASRSAEncryptionManagerTests.m */; };
+		042C45D8246549CF0096015C /* ASRSAEncryptionManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C45D7246549CF0096015C /* ASRSAEncryptionManagerUITests.m */; };
+		042C45EB24654A150096015C /* ASEncryptTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C45EA24654A150096015C /* ASEncryptTool.m */; };
+		042C45EE24654AA60096015C /* ASRSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C45ED24654AA60096015C /* ASRSAEncryptor.m */; };
+		04EA37C72465551F0008F3C3 /* private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 04EA37C52465551F0008F3C3 /* private_key.pem */; };
+		04EA37C82465551F0008F3C3 /* public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 04EA37C62465551F0008F3C3 /* public_key.pem */; };
+		118AFFC65CADEDE93E32375B /* libPods-ASRSAEncryptionManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAA3E83AE95B5F559DD576C /* libPods-ASRSAEncryptionManager.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042C45C9246549CF0096015C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042C45A5246549CC0096015C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042C45AC246549CC0096015C;
+			remoteInfo = ASRSAEncryptionManager;
+		};
+		042C45D4246549CF0096015C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042C45A5246549CC0096015C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042C45AC246549CC0096015C;
+			remoteInfo = ASRSAEncryptionManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042C45AD246549CC0096015C /* ASRSAEncryptionManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASRSAEncryptionManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		042C45B0246549CC0096015C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		042C45B1246549CC0096015C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		042C45B3246549CC0096015C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		042C45B4246549CC0096015C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		042C45B6246549CC0096015C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		042C45B7246549CC0096015C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		042C45BA246549CC0096015C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042C45BC246549CF0096015C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042C45BF246549CF0096015C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042C45C1246549CF0096015C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042C45C2246549CF0096015C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		042C45C8246549CF0096015C /* ASRSAEncryptionManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASRSAEncryptionManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042C45CC246549CF0096015C /* ASRSAEncryptionManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASRSAEncryptionManagerTests.m; sourceTree = "<group>"; };
+		042C45CE246549CF0096015C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042C45D3246549CF0096015C /* ASRSAEncryptionManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASRSAEncryptionManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042C45D7246549CF0096015C /* ASRSAEncryptionManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASRSAEncryptionManagerUITests.m; sourceTree = "<group>"; };
+		042C45D9246549CF0096015C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042C45E924654A150096015C /* ASEncryptTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASEncryptTool.h; sourceTree = "<group>"; };
+		042C45EA24654A150096015C /* ASEncryptTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASEncryptTool.m; sourceTree = "<group>"; };
+		042C45EC24654AA60096015C /* ASRSAEncryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASRSAEncryptor.h; sourceTree = "<group>"; };
+		042C45ED24654AA60096015C /* ASRSAEncryptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASRSAEncryptor.m; sourceTree = "<group>"; };
+		04EA37C52465551F0008F3C3 /* private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = private_key.pem; sourceTree = "<group>"; };
+		04EA37C62465551F0008F3C3 /* public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = public_key.pem; sourceTree = "<group>"; };
+		C3DF720B36B824C2DF533E86 /* Pods-ASRSAEncryptionManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRSAEncryptionManager.debug.xcconfig"; path = "Target Support Files/Pods-ASRSAEncryptionManager/Pods-ASRSAEncryptionManager.debug.xcconfig"; sourceTree = "<group>"; };
+		DBAA3E83AE95B5F559DD576C /* libPods-ASRSAEncryptionManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASRSAEncryptionManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC17DD2F48DC2476162B5CD /* Pods-ASRSAEncryptionManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRSAEncryptionManager.release.xcconfig"; path = "Target Support Files/Pods-ASRSAEncryptionManager/Pods-ASRSAEncryptionManager.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042C45AA246549CC0096015C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118AFFC65CADEDE93E32375B /* libPods-ASRSAEncryptionManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042C45C5246549CF0096015C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042C45D0246549CF0096015C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042C45A4246549CC0096015C = {
+			isa = PBXGroup;
+			children = (
+				042C45AF246549CC0096015C /* ASRSAEncryptionManager */,
+				042C45CB246549CF0096015C /* ASRSAEncryptionManagerTests */,
+				042C45D6246549CF0096015C /* ASRSAEncryptionManagerUITests */,
+				042C45AE246549CC0096015C /* Products */,
+				07CAA720232BA17660B5AECA /* Pods */,
+				6266830E8C6554053DFB8C73 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		042C45AE246549CC0096015C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042C45AD246549CC0096015C /* ASRSAEncryptionManager.app */,
+				042C45C8246549CF0096015C /* ASRSAEncryptionManagerTests.xctest */,
+				042C45D3246549CF0096015C /* ASRSAEncryptionManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042C45AF246549CC0096015C /* ASRSAEncryptionManager */ = {
+			isa = PBXGroup;
+			children = (
+				042C45E5246549E30096015C /* ASRSAEncryptionManager */,
+				042C45B0246549CC0096015C /* AppDelegate.h */,
+				042C45B1246549CC0096015C /* AppDelegate.m */,
+				042C45B3246549CC0096015C /* SceneDelegate.h */,
+				042C45B4246549CC0096015C /* SceneDelegate.m */,
+				042C45B6246549CC0096015C /* ViewController.h */,
+				042C45B7246549CC0096015C /* ViewController.m */,
+				042C45B9246549CC0096015C /* Main.storyboard */,
+				042C45BC246549CF0096015C /* Assets.xcassets */,
+				042C45BE246549CF0096015C /* LaunchScreen.storyboard */,
+				042C45C1246549CF0096015C /* Info.plist */,
+				042C45C2246549CF0096015C /* main.m */,
+			);
+			path = ASRSAEncryptionManager;
+			sourceTree = "<group>";
+		};
+		042C45CB246549CF0096015C /* ASRSAEncryptionManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				042C45CC246549CF0096015C /* ASRSAEncryptionManagerTests.m */,
+				042C45CE246549CF0096015C /* Info.plist */,
+			);
+			path = ASRSAEncryptionManagerTests;
+			sourceTree = "<group>";
+		};
+		042C45D6246549CF0096015C /* ASRSAEncryptionManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				042C45D7246549CF0096015C /* ASRSAEncryptionManagerUITests.m */,
+				042C45D9246549CF0096015C /* Info.plist */,
+			);
+			path = ASRSAEncryptionManagerUITests;
+			sourceTree = "<group>";
+		};
+		042C45E5246549E30096015C /* ASRSAEncryptionManager */ = {
+			isa = PBXGroup;
+			children = (
+				04EA37C52465551F0008F3C3 /* private_key.pem */,
+				04EA37C62465551F0008F3C3 /* public_key.pem */,
+				042C45E924654A150096015C /* ASEncryptTool.h */,
+				042C45EA24654A150096015C /* ASEncryptTool.m */,
+				042C45EC24654AA60096015C /* ASRSAEncryptor.h */,
+				042C45ED24654AA60096015C /* ASRSAEncryptor.m */,
+			);
+			path = ASRSAEncryptionManager;
+			sourceTree = "<group>";
+		};
+		07CAA720232BA17660B5AECA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3DF720B36B824C2DF533E86 /* Pods-ASRSAEncryptionManager.debug.xcconfig */,
+				FEC17DD2F48DC2476162B5CD /* Pods-ASRSAEncryptionManager.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6266830E8C6554053DFB8C73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBAA3E83AE95B5F559DD576C /* libPods-ASRSAEncryptionManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042C45AC246549CC0096015C /* ASRSAEncryptionManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042C45DC246549CF0096015C /* Build configuration list for PBXNativeTarget "ASRSAEncryptionManager" */;
+			buildPhases = (
+				3E245C6EE4918B16F76AFB7D /* [CP] Check Pods Manifest.lock */,
+				042C45A9246549CC0096015C /* Sources */,
+				042C45AA246549CC0096015C /* Frameworks */,
+				042C45AB246549CC0096015C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASRSAEncryptionManager;
+			productName = ASRSAEncryptionManager;
+			productReference = 042C45AD246549CC0096015C /* ASRSAEncryptionManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		042C45C7246549CF0096015C /* ASRSAEncryptionManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042C45DF246549CF0096015C /* Build configuration list for PBXNativeTarget "ASRSAEncryptionManagerTests" */;
+			buildPhases = (
+				042C45C4246549CF0096015C /* Sources */,
+				042C45C5246549CF0096015C /* Frameworks */,
+				042C45C6246549CF0096015C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042C45CA246549CF0096015C /* PBXTargetDependency */,
+			);
+			name = ASRSAEncryptionManagerTests;
+			productName = ASRSAEncryptionManagerTests;
+			productReference = 042C45C8246549CF0096015C /* ASRSAEncryptionManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		042C45D2246549CF0096015C /* ASRSAEncryptionManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042C45E2246549CF0096015C /* Build configuration list for PBXNativeTarget "ASRSAEncryptionManagerUITests" */;
+			buildPhases = (
+				042C45CF246549CF0096015C /* Sources */,
+				042C45D0246549CF0096015C /* Frameworks */,
+				042C45D1246549CF0096015C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042C45D5246549CF0096015C /* PBXTargetDependency */,
+			);
+			name = ASRSAEncryptionManagerUITests;
+			productName = ASRSAEncryptionManagerUITests;
+			productReference = 042C45D3246549CF0096015C /* ASRSAEncryptionManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042C45A5246549CC0096015C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					042C45AC246549CC0096015C = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					042C45C7246549CF0096015C = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 042C45AC246549CC0096015C;
+					};
+					042C45D2246549CF0096015C = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 042C45AC246549CC0096015C;
+					};
+				};
+			};
+			buildConfigurationList = 042C45A8246549CC0096015C /* Build configuration list for PBXProject "ASRSAEncryptionManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042C45A4246549CC0096015C;
+			productRefGroup = 042C45AE246549CC0096015C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042C45AC246549CC0096015C /* ASRSAEncryptionManager */,
+				042C45C7246549CF0096015C /* ASRSAEncryptionManagerTests */,
+				042C45D2246549CF0096015C /* ASRSAEncryptionManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042C45AB246549CC0096015C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042C45C0246549CF0096015C /* LaunchScreen.storyboard in Resources */,
+				042C45BD246549CF0096015C /* Assets.xcassets in Resources */,
+				04EA37C72465551F0008F3C3 /* private_key.pem in Resources */,
+				042C45BB246549CC0096015C /* Main.storyboard in Resources */,
+				04EA37C82465551F0008F3C3 /* public_key.pem in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042C45C6246549CF0096015C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042C45D1246549CF0096015C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E245C6EE4918B16F76AFB7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ASRSAEncryptionManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042C45A9246549CC0096015C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042C45B8246549CC0096015C /* ViewController.m in Sources */,
+				042C45B2246549CC0096015C /* AppDelegate.m in Sources */,
+				042C45C3246549CF0096015C /* main.m in Sources */,
+				042C45B5246549CC0096015C /* SceneDelegate.m in Sources */,
+				042C45EB24654A150096015C /* ASEncryptTool.m in Sources */,
+				042C45EE24654AA60096015C /* ASRSAEncryptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042C45C4246549CF0096015C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042C45CD246549CF0096015C /* ASRSAEncryptionManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042C45CF246549CF0096015C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042C45D8246549CF0096015C /* ASRSAEncryptionManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042C45CA246549CF0096015C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042C45AC246549CC0096015C /* ASRSAEncryptionManager */;
+			targetProxy = 042C45C9246549CF0096015C /* PBXContainerItemProxy */;
+		};
+		042C45D5246549CF0096015C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042C45AC246549CC0096015C /* ASRSAEncryptionManager */;
+			targetProxy = 042C45D4246549CF0096015C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		042C45B9246549CC0096015C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042C45BA246549CC0096015C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		042C45BE246549CF0096015C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042C45BF246549CF0096015C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042C45DA246549CF0096015C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		042C45DB246549CF0096015C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042C45DD246549CF0096015C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3DF720B36B824C2DF533E86 /* Pods-ASRSAEncryptionManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = ASRSAEncryptionManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.andy.zl.ASRSAEncryptionManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042C45DE246549CF0096015C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC17DD2F48DC2476162B5CD /* Pods-ASRSAEncryptionManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = ASRSAEncryptionManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.andy.zl.ASRSAEncryptionManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		042C45E0246549CF0096015C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = ASRSAEncryptionManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.andy.zl.ASRSAEncryptionManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASRSAEncryptionManager.app/ASRSAEncryptionManager";
+			};
+			name = Debug;
+		};
+		042C45E1246549CF0096015C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = ASRSAEncryptionManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.andy.zl.ASRSAEncryptionManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASRSAEncryptionManager.app/ASRSAEncryptionManager";
+			};
+			name = Release;
+		};
+		042C45E3246549CF0096015C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = ASRSAEncryptionManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.andy.zl.ASRSAEncryptionManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ASRSAEncryptionManager;
+			};
+			name = Debug;
+		};
+		042C45E4246549CF0096015C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = ASRSAEncryptionManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.andy.zl.ASRSAEncryptionManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ASRSAEncryptionManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042C45A8246549CC0096015C /* Build configuration list for PBXProject "ASRSAEncryptionManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042C45DA246549CF0096015C /* Debug */,
+				042C45DB246549CF0096015C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042C45DC246549CF0096015C /* Build configuration list for PBXNativeTarget "ASRSAEncryptionManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042C45DD246549CF0096015C /* Debug */,
+				042C45DE246549CF0096015C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042C45DF246549CF0096015C /* Build configuration list for PBXNativeTarget "ASRSAEncryptionManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042C45E0246549CF0096015C /* Debug */,
+				042C45E1246549CF0096015C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042C45E2246549CF0096015C /* Build configuration list for PBXNativeTarget "ASRSAEncryptionManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042C45E3246549CF0096015C /* Debug */,
+				042C45E4246549CF0096015C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042C45A5246549CC0096015C /* Project object */;
+}

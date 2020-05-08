@@ -1,0 +1,22 @@
+PODS:
+  - GTMBase64 (1.0.1)
+  - OpenSSL-Universal (1.0.2.19):
+    - OpenSSL-Universal/Static (= 1.0.2.19)
+  - OpenSSL-Universal/Static (1.0.2.19)
+
+DEPENDENCIES:
+  - GTMBase64
+  - OpenSSL-Universal
+
+SPEC REPOS:
+  trunk:
+    - GTMBase64
+    - OpenSSL-Universal
+
+SPEC CHECKSUMS:
+  GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
+  OpenSSL-Universal: 8b48cc0d10c1b2923617dfe5c178aa9ed2689355
+
+PODFILE CHECKSUM: ad79307f03ca7f298e71aff119db5506f6a264e5
+
+COCOAPODS: 1.9.1
