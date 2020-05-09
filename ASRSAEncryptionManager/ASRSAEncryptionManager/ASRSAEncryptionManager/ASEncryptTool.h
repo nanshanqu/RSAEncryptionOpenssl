@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ASEncryptTool : NSObject
 
-+ (id)shareInstance;//单🌰
++ (id)shareInstance;//单例
 - (NSString *)encrypt:(NSString *)content type:(KeyType)type;//加密
 - (NSString *)decrypt:(NSString *)content type:(KeyType)type;//解密
 

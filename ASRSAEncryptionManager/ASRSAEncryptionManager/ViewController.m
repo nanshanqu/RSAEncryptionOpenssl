@@ -23,7 +23,7 @@
     // Do any additional setup after loading the view.
     
     //原始数据
-    NSString *originalString = @"这是一段将要使用'.der'文件加密的字符串!这是一段将要使用'.der'文件加密的字符串!这是一段将要使用'.der'文件加密的字符串!这是一段将要使用'.der'文件加密的字符串!这是一段将要使用'.der'文件加密的字符串!这是一段将要使用'.der'文件加密的字符串!这是一段将要使用'.der'文件加密的字符串!这是一段将要使用'.der'文件加密的字符串!这是一段将要使用'.der'文件加密的字符串!这是一段将要使用'.der'文件加密的字符串!这是一段将要使用'.der'文件加密的字符串!这是一段将要使用'.der'文件加密的字符串!这是一段将要使用'.der'文件加密的字符串!";
+    NSString *originalString = @"这是加密之前的数据信息！这是加密之前的数据信息！";
     
 //    //使用.der和.p12中的公钥私钥加密解密
 //    NSString *public_key_path = [[NSBundle mainBundle] pathForResource:@"public_key.pem" ofType:nil];
